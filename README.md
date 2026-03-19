@@ -1,7 +1,3 @@
-# Interfacing-LCD-Using-8051
-# NAME: GOKUL PRASAD H
-# REG NO: 212224050011
-
 ## Aim:
 To interface a 16x2 LCD with an 8051 microcontroller and display your name.
 
@@ -42,17 +38,15 @@ lcdcmd(0x0c); //display on
 delay();
 lcdcmd(0x81);
 delay();
-lcddat ('E');
+lcddat ('S');
 delay();
-lcddat ('M');
+lcddat ('U');
 delay();
-lcddat ('B'); I
+lcddat ('N'); I
 delay();
-lcddat('S');
+lcddat('I');
 delay();
-lcddat('Y');
-delay();
-lcddat('S');
+lcddat('L');
 delay();
 }
 }
@@ -83,9 +77,11 @@ for (i=0;i<12000; i++);
 
 
 ## Output :
-<img width="1916" height="1199" alt="Screenshot 2026-03-18 192156" src="https://github.com/user-attachments/assets/bd98862c-2b05-44d5-84ba-0da64c82e973" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f986b79d-deab-4704-8fe2-83303260bbf5" />
 
-<img width="1911" height="1187" alt="Screenshot 2026-03-18 192241" src="https://github.com/user-attachments/assets/cf0b20c2-6856-4610-bf23-a420346c3928" />
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a47b9a20-e7e7-4302-8308-c34902322717" />
+
 
 ## Result :  
 Thus interfacing LCD using 8051 microcontroller is executed successfully.
